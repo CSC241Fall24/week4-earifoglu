@@ -5,9 +5,9 @@ public class Problem1 {
         ListNode ref = l1.next;
         l.next = new ListNode(ref.val);
         while(ref.next != null) {
-            ref = ref.next
+            ref = ref.next;
             l = l.next;
-            l.next = new ListNode(ref.val)
+            l.next = new ListNode(ref.val);
         }
         l.next = l2;
         return l;
