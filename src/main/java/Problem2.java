@@ -33,7 +33,7 @@ public class Problem2 {
                 return newNode;
             }
             else {
-                return null;
+                return head;
             }
         }
 
