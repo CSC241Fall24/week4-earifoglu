@@ -4,7 +4,7 @@ public class Problem2 {
         int count = 0;
         ListNode ref = head;
         boolean found = false;
-        while(head != null) {
+        while(ref != null) {
             if(count == position - 1) {
                 found = true;
                 break;
