@@ -27,7 +27,6 @@ public class Problem2 {
             }
             return head;
         }
-    
-        return null;
+
     }
 }
