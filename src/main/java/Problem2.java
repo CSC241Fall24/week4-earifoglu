@@ -1,11 +1,11 @@
 
 public class Problem2 {
     public static ListNode insert(ListNode head, int val, int position) {
-        int count = 1;
+        int count = 0;
         ListNode ref = head;
         boolean found = false;
         while(head != null) {
-            if(count == position) {
+            if(count == position - 1) {
                 found = true;
                 break;
             }
